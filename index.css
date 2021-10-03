@@ -1,0 +1,541 @@
+*{
+   color: hsl(0, 0%, 100%);
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   line-height: 1.5rem;
+}
+body{
+background-color:hsl(218, 28%, 13%);
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+/***********
+buttton
+***********/
+button{
+    padding: .8rem 5rem;
+    background-image: linear-gradient(hsl(198, 60%, 50%),hsl(176, 68%, 64%));
+    border-radius: 2rem;
+    border: 0;
+    outline: none;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+/*********
+Typography
+**********/
+body{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h1,h2{
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+}
+h2{
+    font-size: 1.1rem;
+}
+.box div{
+    font-weight: 700;
+}
+.box div p{
+    font-size: .7rem;
+    color: hsla(0, 0%, 100%, 0.664);
+    margin-top: .2rem;
+    font-weight: 400;
+}
+/*******
+logo
+********/
+header img{
+    height: 20px;
+}
+/********
+header
+**********/
+header{
+    display: flex;
+    background-color:hsl(217, 28%, 15%);
+    justify-content: space-between;
+    padding: 2rem;
+    width: 100%;
+}
+header a{
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav li{
+    margin-left: 2rem;
+}
+.see{
+    line-height: 1rem;
+}
+.section-3 .productive p{
+   margin: .2rem;
+}
+/*************
+main
+**************/
+/*************
+section-1
+************/
+.section-1{
+    background-image: url("./images/bg-curvy-mobile.svg");
+    background-color:hsl(217, 28%, 15%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    text-align: center;
+}
+.section-1 div,.section-1 img{
+    width: 85%;
+    margin: 0 auto;
+}
+.section-1 h1, .section-1 p{
+    margin: 1.3rem .7rem;
+}
+
+/*************
+section-2
+************/
+.section-2{
+    display: flex;
+    flex-direction: column;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+.boxes img{
+    order: -1;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.boxes p{
+    max-width: 400px;
+}
+.boxes h2{
+    margin: 1rem 0;
+}
+/**********
+section-3
+***********/
+.section-3{
+    width:85%;
+    margin: 8rem auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.productive{
+    width: 100%;
+}
+.prodImg{
+    order: -1;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+.productive p,.productive h2{
+    margin: .7rem 0;
+}
+.productive p{
+    max-width: 700px;
+}
+.productive h2{
+    margin-left: .3rem;
+}
+
+.see img{
+    margin-left: .4rem;
+}
+.see{
+    display: flex;
+    flex-direction: row;
+    color: hsl(176, 68%, 64%);
+    padding-bottom: .3rem;
+    width: 150px;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    margin-left: .3rem;
+    margin-top: .5rem;
+}
+/**********
+section-4
+***********/
+.section4{
+    background-image: url("./images/bg-quotes.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: .7rem;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: .7rem;
+}
+.box{
+    width: 100%;
+    background-color: hsl(217, 28%, 15%);
+    padding: 2rem 2rem;
+    margin: 2rem auto;
+    box-shadow:  hsl(219, 30%, 18%) 1.95px 1.95px 2.6px;
+}
+.box p{
+   max-width: 500px;
+}
+.boxImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 1rem;
+    margin-left: 0;
+}
+.boxImg img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 1rem;
+    margin-top: .1rem;
+}
+/**********
+section-5
+***********/
+.section5{
+    background-image: linear-gradient(hsl(218, 28%, 13%) 50%,hsl(216, 53%, 9%) 50%);
+}
+.section-5{
+    background-color: hsl(217, 28%, 15%);
+    width: 95%;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: .7rem;
+    margin-bottom: 0;
+}
+.section-5 h2,.section-5 p{
+    max-width: 600px;
+    margin: 1rem auto;
+
+}
+.section-5 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-5 div button{
+   max-width: 400px;
+  padding: .8rem 2rem;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 3rem;
+    outline: none;
+    border: 0;
+    padding: 1rem;
+    padding-left: 2rem;
+    color: black;
+}
+.txt{
+    width: 70%;
+    padding: 0;
+    margin-top: 1.4rem;
+
+}
+.error{
+    margin-top: 3rem;
+}
+.errorp{
+    align-self: flex-start;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-bottom: .9rem;
+    color:  hsl(0, 100%, 63%);
+}
+/*********
+footer
+**********/
+footer{
+    background-color:hsl(216, 53%, 9%);
+    padding-top: 1rem;
+}
+.logo{
+    margin: 2rem;
+}
+.fx{
+    display: flex;
+    margin-bottom: 1.5rem;
+    margin-right: 3.7rem;
+}
+.fx img{
+    margin-right: 1rem;
+    margin-top: .3rem;
+    height: 19px;
+}
+.flex{
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.con{
+    margin: 2rem 0;
+}
+.con p{
+    margin: 1rem 0;
+}
+.icon{
+    align-self: center;
+}
+.icon  a{
+    text-align:center;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+} 
+.icon i{
+    margin-top: .4rem;
+    
+}
+.fa-facebook{
+     margin-left: .5rem;
+}
+.fa-twitter{
+    margin-left: .4rem;
+}
+.fa-instagram {
+    margin-left: .4rem;
+}
+/*************
+hover
+**************/
+button:hover{
+    background-image: linear-gradient(hsl(198, 60%, 70%),hsl(176, 68%, 74%));
+    cursor: pointer;
+}
+nav li a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+    line-height: 1rem;
+}
+.see:hover{
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.see img{
+    color: white;
+}
+.icon a:hover{
+    border-color: hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%);
+}
+i:hover{
+    color: hsl(176, 68%, 64%);
+}
+@media(min-width:927px)
+{   
+    h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .productive h2{
+        line-height: 2.5rem;
+    }
+    header img{
+        height: 100%;
+    }
+    /***********
+    section-1
+    ***********/
+    .section-1{
+        background-image: url("./images/bg-curvy-desktop.svg");
+    }
+    .section-1 button{
+        margin-top: 2rem;
+    }
+     /*********
+    container
+    **********/
+    .container{
+        max-width: 900px;
+        padding: 0 12rem;
+     }
+     .container p{
+         padding:0 1.8rem;
+     }
+    /*********
+    section-2
+    *********/
+    .section-2{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .boxes{
+        width: 42%;
+        padding: 0 5.8rem;
+    }
+    /*********
+    section-3
+    *********/
+    .section-3{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .productive h2{
+        font-size: 2rem;
+        padding-right: 10rem;
+    }
+    .productive{
+        width: 40%;
+    }
+    /*********
+    section-4
+    *********/
+    .section4{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .box{
+       width: 30%;
+    }
+    .boxImg{
+        margin: 2rem;
+        margin-bottom: 0;
+    }
+    .box p{
+        margin-bottom: 1rem;
+    }
+    .box div{
+        margin: 0;
+        padding: 0;
+    }
+    /*********
+    section-5
+    *********/
+    .section-5{
+        width: 70%;
+        padding: 3rem;
+    }
+    .section-5 .input{
+         flex-direction: row;
+         justify-content: space-between;
+         width: 100%;
+        
+    }
+    .section-5 div button{
+       padding: 0.8rem 0rem;
+    }
+    .section-5 p{
+        max-width: 650px;
+        text-align: center;
+        margin: 2rem auto;
+        margin-bottom: 0;
+    }
+    .section-5 div input{
+        width: 100%;
+        margin-bottom: .4rem;
+    }
+    .section-5 div button{
+        margin: 1rem;
+        width: 15rem;
+    }
+    /*********
+    footer
+    *********/
+    .flex{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .flex1{
+        width: 40%;
+    }
+    .con{
+        margin:  0;
+        width: 15%;
+    }
+    .con p{
+        margin-top: 0;
+
+    }
+    .icon{
+        margin-left: 1rem;
+        align-self: start;
+    }
+}
+@media(max-width: 1240px) and (min-width: 927px)
+{
+   /**********
+   section-2
+   **********/
+   .section-2{
+       width: 95%;
+   }
+   .boxes{
+    width: 50%;
+    padding: 0 3.5rem;
+}
+   /**********
+   section-3
+   *********/
+  .section-3{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .productive{
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .productive h2{
+      padding-right: 0rem;
+      text-align: center;
+  }
+  /***********
+  section-4
+  ************/
+  .section4{
+      width: 95%;
+  }
+  /*********
+  footer
+  **********/
+  .icon{
+      margin-left: 1rem;
+      align-self: start;
+  }
+}
