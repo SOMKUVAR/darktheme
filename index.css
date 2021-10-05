@@ -33,7 +33,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-.container h2{
+h1{
     
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
@@ -360,7 +360,7 @@ i:hover{
 }
 @media(min-width:927px)
 {   
-    .container h2{
+    h1{
         font-size: 2rem;
         line-height: 2.5rem;
     }
