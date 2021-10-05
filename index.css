@@ -33,7 +33,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-h1,h2{
+.container h2{
     
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
@@ -96,8 +96,12 @@ section-1
     width: 100%;
     text-align: center;
 }
-.section-1 div,.section-1 img{
+.section-1 div{
     width: 85%;
+    margin: 0 auto;
+}
+.section-1 img{
+    width: 55%;
     margin: 0 auto;
 }
 .section-1 h1, .section-1 p{
@@ -356,7 +360,7 @@ i:hover{
 }
 @media(min-width:927px)
 {   
-    h1{
+    .container h2{
         font-size: 2rem;
         line-height: 2.5rem;
     }
